@@ -7,27 +7,25 @@ Aplicação web responsiva para planejamento e acompanhamento de treinamento pes
 - React 19.3.1
 - TypeScript
 - CSS Modules
-- pnpm 10.34.9
+- npm 10.9.2
 
 ## Requisitos
-- Node.js 22 ou superior
-- Corepack habilitado
-- pnpm 10.34.9 (fixado em package.json)
+- Node.js 22.x
+- npm 10.9.2 (incluído na instalação Node.js adotada)
 
 ## Desenvolvimento local
 ```bash
-corepack enable
-pnpm install
-pnpm dev
+npm install
+npm run dev
 ```
 
 Abra http://localhost:3000.
 
 ## Verificações
 ```bash
-pnpm lint
-pnpm typecheck
-pnpm build
+npm run lint
+npm run typecheck
+npm run build
 ```
 
 ## Estrutura
