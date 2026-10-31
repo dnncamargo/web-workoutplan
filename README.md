@@ -28,6 +28,15 @@ npm run typecheck
 npm run build
 ```
 
+## Implantação
+O projeto é conectado ao Vercel pelo GitHub. A branch `main` é a branch de produção e as alterações nela iniciam uma nova implantação.
+
+- Framework: Next.js
+- Root Directory: raiz do repositório
+- Node.js: 22.x
+- Install Command: `npm install --no-audit --no-fund`
+- Build Command: `next build` (detecção automática do Next.js)
+
 ## Estrutura
 - src/app: rotas e layout do App Router.
 - src/components: componentes reutilizáveis da interface.
