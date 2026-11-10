@@ -24,13 +24,11 @@ Aplicação web responsiva para planejamento e acompanhamento de treinamento pes
 Requisitos: Node.js 22.x e npm 10.9.2.
 
 ```bash
-npm install
+npm ci
 npm run dev
 ```
 
-Abra http://localhost:3000.
-
-Após o lockfile estar versionado, prefira `npm ci` para instalação reproduzível.
+`npm ci` instala as dependências conforme o `package-lock.json` versionado. Use `npm install` ao alterar dependências para atualizar o manifesto e o lockfile. Abra http://localhost:3000.
 
 ## Verificações
 
